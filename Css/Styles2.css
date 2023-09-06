@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.conteiner{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: linear-gradient(rgba(32, 31, 31, 0.603),rgba(32, 31, 31, 0.603)),url(../Img/fondo2.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu , .menu__iconno{
+    display: none;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li a{
+    padding-left: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.nav ul li a:hover{
+    color: #9bce21;
+}
+
+.header__text{
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.Logo{
+    font-size: 25px;
+    color: #9bce21;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.Services__text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Servicios__group{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    column-gap: 20px;
+}
+
+
+.services__text-1 h2{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
+.services__text-1 a{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.services__img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.services__group-1{
+    background-color: #9ace21;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn__4{
+    border-radius: 5px;
+}
+
+.btn__4:hover{
+    background-color: #ffffff;
+    color: #9ace21;
+}
+
+.services__text-1{
+    text-align: center;
+}
+
+.customers{
+    background: linear-gradient(rgba(32, 31, 31, 0.603),rgba(32, 31, 31, 0.603)),url(../Img/fondocustomers.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.customers__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.customers__text{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.footer{
+    background-color: #13462e;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+
+.footer__networks{
+    margin: 0 0 50px 0;
+}
+
+
+.fa-brands{
+    margin: 0 20px;
+    background-color: #ffffff;
+    color: #515557;
+    padding: 15px;
+    border-radius: 50%;
+
+}
+
+.fa-brands:hover{
+    color: #9bce21;
+}
+
+
+.footer__Services{
+    display: flex;
+}
+
+.footer__Services{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.link__footer{
+    border-bottom: 2px solid #9bce21;
+    border-radius: 5px;
+}
+
+.link__items{
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.link__items:hover{
+    color: #9bce21 ;
+}
+
